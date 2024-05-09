@@ -1,0 +1,1130 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1">
+	<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	<link rel="stylesheet" href="sass/fonts.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<title></title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<main class="admin">
+			<div id="content">
+                <div class="flex_block">
+                    <div class="navigation">
+                        <a href="#">
+                            <img src="./images/logoadmin.svg" alt="">
+                        </a>
+                        <ul>
+                            <li onclick="toggleList('list1')">History <img src="./images/Polygon 1.svg" alt=""></li>
+                            <ul id="list1" style="display: none;">
+                                <li>
+                                    <a href="#">Exchange</a> 
+                                </li>
+                                <li>
+                                    <a href="#">Orders</a>
+                                </li>
+                                <li>
+                                    <a href="#">Deposit</a>
+                                </li>
+                                <li>
+                                    <a href="#">Withdrawal</a>
+                                </li>
+                                <li>
+                                    <a href="#">Transfer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Affiliate Payouts</a>
+                                </li>
+                                
+          
+          
+         
+         
+         
+                            </ul>
+                            <li onclick="toggleList('list2')">Management  <img src="./images/Polygon 1.svg" alt=""></li>
+                            <ul id="list2" style="display: none;">
+                                <li>
+                                    <a href="#">General</a>
+                                </li>
+                                <li>
+                                    
+                                    <a href="#">Coins</a>
+                                </li>
+    
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="right_block">
+                        <ul class="navbar">
+                            <li class="hover"><span>Status</span> <img src="./images/seemore.svg" alt="">
+                                <ul class="displaynone">
+                                    <p>All</p>
+                                    <p>Waiting</p>
+                                    <p>Confirmation</p>
+                                    <p>Transferring</p>
+                                    <p>Exchanging</p>
+                                    <p>Sending</p>
+                                    <p>Success</p>
+                                    <p>Overdue</p>
+                                    <p>Waiting</p>
+                                    <p>Overdue</p>
+                                    <p>Frozen</p>
+                                    <p>Problematic</p>
+                                </ul>
+                            </li>
+                            <li class="hover"><span>Currency</span> <img src="./images/seemore.svg" alt="">
+                                <ul class="displaynone">
+                                    <li>Filecoin(FIL)</li>
+                                    <li>Submenu Item B</li>
+                                    <li>Submenu Item C</li>
+                                </ul>
+                            </li>
+                            <li class="hover"><span>Network</span> <img src="./images/seemore.svg" alt="">
+                                <ul class="displaynone">
+                                    <li>Submenu Item X</li>
+                                    <li>Submenu Item Y</li>
+                                    <li>Submenu Item Z</li>
+                                </ul>
+                            </li>
+                            
+                            <input class="datepicker" placeholder="Select date" type="text" id="datepicker">
+                            <input class="Filterbykey" placeholder="Filter by key" type="text">
+                            <button>
+                                <img src="./images/electro.svg" alt="">
+                            </button>
+                        </ul>
+                        <div class="content_block">  
+                                <table class="table" >
+                                  <tr class="th_names">
+                                    <th class="radius">ID</th>
+                                    <th>Status</th>
+                                    <th>Time</th>
+                                    <th>Volume</th>
+                                    <th>Type</th>
+                                    <th>Pairs</th>
+                                    <th>Profit</th>
+                                    <th class="radius2">Partner profit</th>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="status">
+                                            SUCCESS
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                   
+                                  </tr>
+                                 
+                                  <tr  class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusEXCHANGING">
+                                            EXCHANGING
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusOVERDUE">
+                                            OVERDUE
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="status">
+                                            SUCCESS
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusEXCHANGING">
+                                            EXCHANGING
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusOVERDUE">
+                                            OVERDUE
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="status">
+                                            SUCCESS
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusEXCHANGING">
+                                            EXCHANGING
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusOVERDUE">
+                                            OVERDUE
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="status">
+                                            SUCCESS
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusEXCHANGING">
+                                            EXCHANGING
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                  <tr class="content_table">
+                                    <td>
+                                        <div class="url_block">
+                                            <div class="Url">
+                                                3S1sjic5QNeuckVex4j4bQAf
+                                            </div>
+                                            <div class="market">
+                                                Swaponix.io (0,5%)
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="statusOVERDUE">
+                                            OVERDUE
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="time">
+                                            00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="volume">
+                                            254.45 USDT
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="type">
+                                            float
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="pairs">
+                                            <div class="leftpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>           
+                                                <div class="flex_block">
+                                                    41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                            <div class="rightpair">
+                                                Whitebit.com
+                                                <div class="flex_block">
+                                                    20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                                <div class="flex_block">
+                                                    241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                    <td class="padding">
+                                        <div class="part_profit">
+                                            2.61 USDT(1.02%)
+                                        </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <div class="slidepages">
+                                    <div class="arrowleft margin">
+                                        <img src="./images/arrowadminleft.svg" alt="">
+                                    </div>
+                                    <div class="1 margin">
+                                        1
+                                    </div>
+                                    <div class="2 margin">
+                                        2
+                                    </div>
+                                    <div class="3 margin">
+                                        3
+                                    </div>
+                                    <div class="4 margin">
+                                        4
+                                    </div>
+                                    <div class="5 margin">
+                                        1
+                                    </div>
+                                    <div class="6 margin">
+                                        6
+                                    </div>
+                                    <div class="7 margin">
+                                        7
+                                    </div>
+                                    <div class="8 margin">
+                                        8
+                                    </div>
+                                    <div class="9 margin">
+                                        9
+                                    </div>
+                                    <div class="10 margin">
+                                        10
+                                    </div>
+                                    <div class="arrowright margin">
+                                        <img src="./images/arrowadminright.svg" alt="">
+                                    </div>
+                                </div>
+                            
+                            <!-- <div class="transition_block">
+                                <div class="url_block">
+                                    <div class="Url">
+                                        3S1sjic5QNeuckVex4j4bQAf
+                                    </div>
+                                    <div class="market">
+                                        Swaponix.io (0,5%)
+                                    </div>
+                                </div>
+                                <div class="status">
+                                    SUCCESS
+                                </div>
+                                <div class="time">
+                                    00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                </div>
+                                <div class="volume">
+                                    254.45 USDT
+                                </div>
+                                <div class="type">
+                                    float
+                                </div>
+                                <div class="pairs">
+                                    <div class="leftpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>           
+                                        <div class="flex_block">
+                                            41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                    <div class="rightpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                        <div class="flex_block">
+                                            241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                                <div class="part_profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                            </div>
+                            <div class="transition_block">
+                                <div class="url_block">
+                                    <div class="Url">
+                                        3S1sjic5QNeuckVex4j4bQAf
+                                    </div>
+                                    <div class="market">
+                                        Swaponix.io (0,5%)
+                                    </div>
+                                </div>
+                                <div class="statusEXCHANGING">
+                                    EXCHANGING
+                                </div>
+                                <div class="time">
+                                    00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                </div>
+                                <div class="volume">
+                                    254.45 USDT
+                                </div>
+                                <div class="type">
+                                    float
+                                </div>
+                                <div class="pairs">
+                                    <div class="leftpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>           
+                                        <div class="flex_block">
+                                            41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                    <div class="rightpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                        <div class="flex_block">
+                                            241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                                <div class="part_profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                            </div>
+                            <div class="transition_block">
+                                <div class="url_block">
+                                    <div class="Url">
+                                        3S1sjic5QNeuckVex4j4bQAf
+                                    </div>
+                                    <div class="market">
+                                        Swaponix.io (0,5%)
+                                    </div>
+                                </div>
+                                <div class="statusOVERDUE">
+                                    OVERDUE
+                                </div>
+                                <div class="time">
+                                    00:30:59 <img class="oko" src="./images/oko.svg" alt="">
+                                </div>
+                                <div class="volume">
+                                    254.45 USDT
+                                </div>
+                                <div class="type">
+                                    float
+                                </div>
+                                <div class="pairs">
+                                    <div class="leftpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>           
+                                        <div class="flex_block">
+                                            41b...f273<img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <img class="swapmini" src="./images/swapmini.svg" alt="">
+                                    <div class="rightpair">
+                                        Whitebit.com
+                                        <div class="flex_block">
+                                            20 ICP (ICP) <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                        <div class="flex_block">
+                                            241b...f273 <img class="oko" src="./images/oko.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                                <div class="part_profit">
+                                    2.61 USDT(1.02%)
+                                </div>
+                            </div> -->
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+                <script>
+                    function toggleList(id) {
+                        var list = document.getElementById(id);
+                        if (list.style.display === 'none') {
+                            list.style.display = 'block';
+                        } else {
+                            list.style.display = 'none';
+                        }
+                    }
+                    $(document).ready(function() {
+                    // Налаштування Datepicker
+                    $("#datepicker").datepicker();
+                    });
+                    function toggleGray() {
+                    var block = document.getElementById("block");
+                    var buttonContainer = document.getElementById("buttonContainer");
+
+                    block.style.backgroundColor = "#ccc"; // Змінюємо колір на сірий
+                    buttonContainer.style.display = "block"; // Показуємо контейнер з кнопками
+
+                    // Додаємо подію для ховання контейнера при кліку будь-де в іншому місці на сторінці
+                    document.addEventListener("click", function(event) {
+                        var isClickInsideBlock = block.contains(event.target);
+                        var isClickInsideButtonContainer = buttonContainer.contains(event.target);
+                        if (!isClickInsideBlock && !isClickInsideButtonContainer) {
+                        buttonContainer.style.display = "none"; // Ховаємо контейнер з кнопками
+                        }
+                    });
+                    }
+                </script>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
